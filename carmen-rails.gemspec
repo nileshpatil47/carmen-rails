@@ -5,9 +5,9 @@ require "carmen/rails/version"
 Gem::Specification.new do |s|
   s.name        = "carmen-rails"
   s.version     = Carmen::Rails::VERSION
-  s.authors     = ["Jim Benton"]
-  s.email       = ["jim@autonomousmachine.com"]
-  s.homepage    = "http://github.com/jim/carmen-rails"
+  s.authors     = ["Nilesh Patil"]
+  s.email       = ["nileshpatil47@yahoo.com"]
+  s.homepage    = "http://github.com/nileshpatil47/carmen-rails"
   s.summary     = "Rails adapter for Carmen"
   s.description = "Provides country_select and subregion_select form helpers."
 
