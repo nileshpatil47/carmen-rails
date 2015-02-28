@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "carmen/rails/version"
 
 Gem::Specification.new do |s|
-  s.name        = "carmen-rails"
+  s.name        = "carmen-country"
   s.version     = Carmen::Rails::VERSION
   s.authors     = ["Nilesh Patil"]
   s.email       = ["nileshpatil47@yahoo.com"]
@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.test_files = Dir["spec/**/*"]
 
   s.add_dependency "rails"
-  s.add_dependency "carmen", "~> 1.0.0"
+  s.add_dependency "carmens", "~> 1.0.0"
 
   s.add_development_dependency "minitest"
 end
